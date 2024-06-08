@@ -23,4 +23,4 @@ const fromYenToPound = function(valueInYen) {
 }
 
 // Exportamos las funciones para que puedan ser utilizadas en los tests
-export default { fromEuroToDollar, fromDollarToYen, fromYenToPound };
+module.exports = { fromEuroToDollar, fromDollarToYen, fromYenToPound };
